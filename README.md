@@ -1,5 +1,7 @@
 # Mobile-Games-A-B-Testing-with-Cookie-Cats 🍪🐈
-Hello! This's a study case taken from DataCamp. Cookie Cat is a popular mobile puzzle game developed by Tactile Entertainment. So game contains various levels with increasing difficulty.
+Hello! This's a study case taken from DataCamp. 
+
+Cookie Cat is a popular mobile puzzle game developed by Tactile Entertainment. So game contains various levels with increasing difficulty.
 This project implements an analysis of an A/B test where the first gate in the **Cookie Cats** was moved from level 30 to level 40.
 This study seeks to quantify the effect of the change on player retention.
 
@@ -24,14 +26,21 @@ The data we have is from 90,189 players that installed the game while the AB-tes
 | retention_1    | _boolean_ | If the player returned to the game 1 day after installation set True, else False.     |
 | retention_7    | _boolean_ | If the player returned to the game 7 days after installation set True, else False.    |
 
-## Results
-***1-Day Retention***
+## Conclusion
 
-A slight decrease in 1-day retention was observed when the gate was moved from level 30 (44.8%) to level 40 (44.2%).
+### Results
+
+ ***• 1-Day Retention***: A slight decrease in 1-day retention was observed when the gate was moved from level 30 (44.8%) to level 40 (44.2%).
 Bootstrapping was applied to estimate the sampling distribution and assess variability in retention rates.
 The results indicate a marginally higher expected retention rate when the gate is positioned at level 30.
 
-***7-Day Retention***
-
-Similarly, 7-day retention decreased from 19.0% (gate at level 30) to 18.2% (gate at level 40).
+  ***• 7-Days Retention***: Similarly, 7-days retention decreased from 19.0% (gate at level 30) to 18.2% (gate at level 40).
 Bootstrapped sampling distributions suggest a high likelihood (approaching 100%) that retention is greater when the gate remains at level 30.
+
+### Recomendation
+
+The analysis provides strong evidence in favor of keeping the gate at 30 level. A 0.8% decrease in 7-day retention was observed after moving the gate from level 30 to level 40, indicating that fewer players remained engaged with the game over a one-week period.
+Based on these findings, it is strongly recommended not to change the current gate placement, as doing so may negatively impact player retention.
+
+
+## Thanks for your attention 💕
